@@ -1,0 +1,17 @@
+nano cors.json
+
+[
+  {
+    "origin": ["*"],
+    "method": ["GET", "HEAD", "DELETE", "POST", "PUT"],
+    "maxAgeSeconds": 3600,
+    "responseHeader": ["Content-Type"]
+  }
+]
+
+activemyanmarstore-627ea.appspot.com
+sk-trading-9ff18.appspot.com
+
+gsutil cors set cors.json gs://sk-trading-9ff18.appspot.com
+
+gsutil cors get gs://sk-trading-9ff18.appspot.com
