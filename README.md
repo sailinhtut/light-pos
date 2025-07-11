@@ -17,7 +17,7 @@
 
 ## 🚀 Getting Started
 
-To run and develop.
+To run and develop,
 
 ```bash
 git clone https://github.com/sailinhtut/light-pos.git
@@ -25,10 +25,13 @@ npm install -g yarn
 yarn install
 ```
 
-To build production web bundle (HTML, CSS, JavaScript).
+To build production application,
 
 ```bash
 npm run build
 ```
 
 Then SetUp.exe file will appear in /dist folder.
+
+## Demo Installation
+Download [App](https://drive.google.com/file/d/1mCfHbqWRsqHhmEQ3OgpgjFWbu2QlUg1g/view?usp=sharing).
